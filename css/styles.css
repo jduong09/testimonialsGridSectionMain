@@ -1,0 +1,95 @@
+/* Main */
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+  min-height: 100vh;
+  background-color: hsl(210, 46%, 95%);
+}
+
+/* Main section */
+
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 5rem 0;
+}
+
+ul > li:nth-child(1) {
+  background-color: hsl(263, 55%, 52%);
+}
+
+ul > li:nth-child(2) {
+  background-color: hsl(217, 19%, 35%);
+}
+
+ul > li:nth-child(3), ul > li:nth-child(5) {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+ul > li:nth-child(4) {
+  background-color: hsl(219, 29%, 14%);
+}
+
+/* Main li */
+
+li {
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+ul > li:first-child {
+  background-image: url('../images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: top 0 right 10%;
+}
+
+/* Main .testimonial */
+
+.testimonial {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.testimonial-author-container {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-author {
+  margin-left: 1rem;
+}
+
+.testimonial-author > div {
+  opacity: .5;
+}
+
+.testimonial-summary {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+  width: 83%;
+}
+
+.testimonial-review {
+  opacity: .7;
+  line-height: 1.2rem;
+}
+
+.img-author {
+  width: 32px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid hsla(0, 0%, 100%, .5);
+}
+
+#img-patrick-abrams {
+  border-color: hsl(263, 55%, 52%);
+}
